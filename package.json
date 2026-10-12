@@ -1,0 +1,23 @@
+{
+  "name": "doom-fabric-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Browser Doom shareware packaged for Fabric Apps",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "dev": "node server.js",
+    "build": "node scripts/build.js",
+    "preview": "node scripts/preview.js",
+    "deploy": "rayfin up",
+    "deploy:static": "rayfin up staticapp deploy",
+    "login:browser": "node scripts/login-browser.js"
+  },
+  "engines": {
+    "node": ">=20.0.0 <21.0.0 || >=22.0.0 <23.0.0 || >=24.0.0 <25.0.0"
+  },
+  "devDependencies": {
+    "@microsoft/rayfin-cli": "1.36.2"
+  }
+}

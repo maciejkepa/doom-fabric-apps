@@ -1,0 +1,16 @@
+{
+  "deployments": {
+    "fabric-playground": {
+      "fabricItemId": "7a593975-625c-4d85-b715-ac46a89f9c9d",
+      "itemName": "doom-fabric-app",
+      "fabricApiUrl": "https://b1aec2082af347c48b7bc23729957124.pbidedicated.windows.net/webapi/capacities/b1aec208-2af3-47c4-8b7b-c23729957124/workloads/BaaS/BaaSService/automatic/v1/workspaces/de2022c7-f926-4591-be03-f06be4844a2b/appbackends/7a593975-625c-4d85-b715-ac46a89f9c9d/",
+      "fabricWorkspaceId": "de2022c7-f926-4591-be03-f06be4844a2b",
+      "fabricTenantId": "aab1d022-64d5-4708-9e76-75153d3cfe28",
+      "publishableKey": "pk-4s9znGGEYgicIzjNZtta",
+      "hostingUrl": "https://glad-ore-7be1ad66cf-westeurope.webapp.fabricapps.net",
+      "fabricDeepLink": "https://app.fabric.microsoft.com/groups/de2022c7-f926-4591-be03-f06be4844a2b/appbackends/7a593975-625c-4d85-b715-ac46a89f9c9d?ctid=aab1d022-64d5-4708-9e76-75153d3cfe28",
+      "deployedAt": "2026-10-12T18:24:39.956Z"
+    }
+  },
+  "active": "fabric-playground"
+}

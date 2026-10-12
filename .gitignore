@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.rayfin/
+.env
+.env.*
+*.log
+.DS_Store

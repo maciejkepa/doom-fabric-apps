@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0a0908" />
+    <title>DOOM // Fabric Apps</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="masthead">
+        <div>
+          <p class="eyebrow">Fabric Apps // WebAssembly runtime</p>
+          <h1>DOOM</h1>
+        </div>
+        <div class="status-chip"><span></span> SHAREWARE / E1</div>
+      </header>
+
+      <section class="game-panel" aria-label="Doom game">
+        <div class="screen-wrap" id="screen-wrap">
+          <canvas id="canvas" tabindex="0" aria-label="Doom game screen"></canvas>
+          <div class="launch" id="launch">
+            <p class="launch-kicker">Knee-Deep in the Dead</p>
+            <h2>System ready</h2>
+            <p>The engine and game data are served locally. Click to start WebAssembly and enable audio.</p>
+            <button id="start" type="button">Launch game</button>
+          </div>
+          <div class="loader" id="loader" hidden>
+            <div class="loader-bar"><i id="loader-progress"></i></div>
+            <p id="status" role="status">Initializing...</p>
+          </div>
+        </div>
+        <div class="toolbar">
+          <p id="runtime-state">Waiting to launch</p>
+          <button id="fullscreen" type="button" disabled>Fullscreen</button>
+        </div>
+      </section>
+
+      <section class="controls" aria-label="Controls">
+        <h2>Controls</h2>
+        <dl>
+          <div><dt>Move</dt><dd><kbd>↑</kbd> <kbd>↓</kbd> <kbd>←</kbd> <kbd>→</kbd></dd></div>
+          <div><dt>Fire</dt><dd><kbd>Ctrl</kbd></dd></div>
+          <div><dt>Use / doors</dt><dd><kbd>Space</kbd></dd></div>
+          <div><dt>Run</dt><dd><kbd>Shift</kbd></dd></div>
+          <div><dt>Menu</dt><dd><kbd>Esc</kbd></dd></div>
+        </dl>
+      </section>
+
+      <footer>
+        <p>doomgeneric / Emscripten / SDL2</p>
+        <p>DOOM Shareware. Original game © id Software.</p>
+      </footer>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>

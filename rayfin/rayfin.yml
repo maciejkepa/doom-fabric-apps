@@ -1,0 +1,25 @@
+id: doom-fabric-app
+name: doom-fabric-app
+version: 1.0.0
+services:
+  auth:
+    enabled: true
+    fabric:
+      enabled: true
+    allowedRedirectUris:
+      - http://localhost:5173
+      - http://127.0.0.1:5173
+      - https://local-heron-51848598a8-westeurope.webapp.fabricapps.net
+      - https://glad-ore-7be1ad66cf-westeurope.webapp.fabricapps.net
+  data:
+    enabled: false
+  staticHosting:
+    enabled: true
+    folder: dist
+    buildCommand: npm run build
+    indexDocument: index.html
+    assetAccess: protected
+  storage:
+    enabled: false
+  functions:
+    enabled: false
