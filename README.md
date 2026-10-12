@@ -1,7 +1,6 @@
 # Doom on Microsoft Fabric Apps
 
-The same DOOM Shareware browser game as the Databricks Apps version, packaged for
-Microsoft Fabric Apps (preview). Fabric hosts the HTML, CSS, JavaScript,
+DOOM Shareware browser game packaged for Microsoft Fabric Apps (preview). Fabric hosts the HTML, CSS, JavaScript,
 WebAssembly engine, and game data. Rendering, audio, input, and gameplay run in
 the browser. All game assets are bundled. No external CDN is needed.
 
@@ -17,8 +16,7 @@ is served under a URL path prefix. The UI and controls match the original app.
 Only the platform label changes to Fabric Apps.
 
 `server.js` is a local development/preview server, not a server deployed to
-Fabric. There is no Databricks `app.yaml`, container, or server port to configure
-in Fabric. The game does not call Fabric data APIs or need a Lakehouse, Warehouse,
+Fabric. The game does not call Fabric data APIs or need a Lakehouse, Warehouse,
 or custom data models. The Rayfin data service is disabled. Fabric authentication
 is enabled and hosted assets are protected by default.
 
